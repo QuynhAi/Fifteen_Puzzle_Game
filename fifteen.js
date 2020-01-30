@@ -37,7 +37,7 @@
 				if(i != (emptyRow / TILE_PIXEL) || j != (emptyCol / TILE_PIXEL)){
 
 					let tile = document.createElement("div");
-					tile.style.backgroundImage = "url('background.jpg')"; // set background
+					tile.style.backgroundImage = "url('./img/background.jpg')"; // set background
 					tile.classList.add("puzzleTile"); // set style
 
 					tile.style.top = i * TILE_PIXEL + "px"; // postion for column tile
